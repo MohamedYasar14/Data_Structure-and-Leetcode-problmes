@@ -9,7 +9,8 @@ import java.io.IOException;
 public class Dynamic_Array {
      public static void main(String args[]) throws NumberFormatException, IOException {
        Array a=new Array(5);
-       int ch;
+       System.out.println("Intial size is 5: ");
+       int ch; 
        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
        do {
     	   System.out.println("=======Dynamic Array======");
