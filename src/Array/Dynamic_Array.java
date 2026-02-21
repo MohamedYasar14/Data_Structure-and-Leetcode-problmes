@@ -12,6 +12,7 @@ public class Dynamic_Array {
        int ch;
        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
        do {
+    	   System.out.println("=======Dynamic Array======");
     	   System.out.println("Enter Number 1 for Insert: ");
     	   System.out.println("Enter Number 2 for Delete: ");
     	   System.out.println("Enter Number 3 for Search: ");
