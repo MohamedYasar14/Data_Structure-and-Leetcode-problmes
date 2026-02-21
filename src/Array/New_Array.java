@@ -7,8 +7,9 @@ import java.io.IOException;
 public class New_Array {
      public static void main(String args[]) throws NumberFormatException, IOException {
     	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+    	System.out.println("Normal Array");
         System.out.print("Enter the Size of an Array");
-        int s=Integer.parseInt(br.readLine());
+        int s=Integer.  parseInt(br.readLine());
         Array1 a=new Array1(s);
        int ch;
      
